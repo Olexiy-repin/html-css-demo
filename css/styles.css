@@ -1,0 +1,73 @@
+/* 
+універсальний селектор
+селектор елемента (тегу)
+селектор ідентифікатору
+селектор класу
+селектор атрибуту
+селектор нащадка
+селектор дитини
+*/
+
+/* універсальний селектор
+* {
+    color: tomato;
+} 
+*/
+
+/* селектор елемента (тегу)
+a {
+    text-decoration: none;
+} 
+*/
+
+/* селектор ідентифікатору
+#description {
+    color: tomato;
+}
+*/
+
+/* селектор класу
+.description {
+    color: tomato;
+}
+*/
+
+/* селектор атрибуту
+[href="https://www.google.com/"] {
+   color: teal;
+}
+*/
+
+/* селектор нащадка
+.list .list-link {
+    color: tomato;
+} 
+*/
+
+/* селектор дитини
+ .list-item > .list-link {
+    color: tomato;
+} 
+*/
+
+/* Специфічність */
+
+/* 10 */
+/* .description {
+    color: teal;
+} */
+
+/* 11 */
+/* body .description {
+    color: tomato;
+} */
+
+/* 100 */
+/* #description-text {
+    color: yellowgreen;
+} */
+
+/* 11 */
+/* p.description {
+    color: brown;
+} */
