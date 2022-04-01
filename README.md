@@ -1,6 +1,6 @@
 # html-css-practice
 
-## Список рекомендованих розширеннь
+## Список рекомендованих розширень
 
 - [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
